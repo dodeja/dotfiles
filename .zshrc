@@ -49,7 +49,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(rails  ruby brew bundler )
 
 # User configuration
 
@@ -59,10 +59,11 @@ export LANG=en_US.UTF-8
 export ARCHFLAGS="-arch x86_64"
 export SSH_KEY_PATH="~/.ssh/dsa_id"
 
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-[[ -n "$SSH_CLIENT" ]] || export DEFAULT_USER="akshay"
 export DEFAULT_USER=`whoami`
-
 alias zshconfig="subl ~/.zshrc"
+alias t49="subl ~/Dev/t49"
 alias ohmyzsh="subl ~/.oh-my-zsh"
+export PATH="/usr/local/sbin:$PATH"
