@@ -46,7 +46,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
-brew install homebrew/php/php55 --with-gmp
+# brew install homebrew/php/php55 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -55,30 +55,30 @@ brew install sfnt2woff-zopfli
 brew install woff2
 
 # Install some CTF tools; see https://github.com/ctfs/write-ups.
-brew install aircrack-ng
-brew install bfg
-brew install binutils
-brew install binwalk
-brew install cifer
-brew install dex2jar
-brew install dns2tcp
-brew install fcrackzip
-brew install foremost
-brew install hashpump
-brew install hydra
-brew install john
-brew install knock
-brew install netpbm
-brew install nmap
-brew install pngcheck
-brew install socat
-brew install sqlmap
-brew install tcpflow
-brew install tcpreplay
-brew install tcptrace
-brew install ucspi-tcp # `tcpserver` etc.
-brew install xpdf
-brew install xz
+# brew install aircrack-ng
+# brew install bfg
+# brew install binutils
+# brew install binwalk
+# brew install cifer
+# brew install dex2jar
+# brew install dns2tcp
+# brew install fcrackzip
+# brew install foremost
+# brew install hashpump
+# brew install hydra
+# brew install john
+# brew install knock
+# brew install netpbm
+# brew install nmap
+# brew install pngcheck
+# brew install socat
+# brew install sqlmap
+# brew install tcpflow
+# brew install tcpreplay
+# brew install tcptrace
+# brew install ucspi-tcp # `tcpserver` etc.
+# brew install xpdf
+# brew install xz
 
 # Install other useful binaries.
 brew install ack
@@ -100,5 +100,62 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+# Oh My ZSH
+brew install zsh zsh-completions
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+chsh -s /bin/zsh
+
+# Dev Tools
+brew install rbenv rbenv-gem-rehash ruby-build
+rbenv install 2.2.3
+rbenv global 2.2.3
+gem update --system
+gem install bundler
+
+brew install redis
+brew install postgres
+brew install node
+brew tap thoughtbot/formulae
+brew install rcm
+brew install legit
+brew install heroku-toolbelt
+
+#  Brew Cask fro Apps
+brew install caskroom/cask/brew-cask
+brew cask install google-chrome
+
+
 # Remove outdated versions from the cellar.
+brew cask install dropbox
+# brew cask install google-chrome
+brew cask install google-drive
+brew cask install google-hangouts
+brew cask install flux
+brew cask install onepassword
+brew cask install pdftk
+brew cask install shiftit
+brew cask install superduper
+# brew cask install totalfinder
+brew cask install transmission
+# brew cask install valentina-studio
+brew cask install vlc
+brew cask install rubymine
+brew cask install slack
+brew cask install spotify
+brew cask install postgres
+brew cask install iterm2
+brew cask install virtualbox
+
+
+
 brew cleanup
+
+
+
+
+
+
+
+
+
+
