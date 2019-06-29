@@ -43,7 +43,7 @@ brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
 brew install screen
-brew install php
+# brew install php
 brew install gmp
 
 # Install font tools.
@@ -84,17 +84,17 @@ brew install ack
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
-brew install pv
-brew install rename
-brew install rlwrap
+# brew install lua
+# brew install lynx
+# brew install p7zip
+# brew install pigz
+# brew install pv
+# brew install rename
+# brew install rlwrap
 brew install ssh-copy-id
-brew install tree
-brew install vbindiff
-brew install zopfli
+# brew install tree
+# brew install vbindiff
+# brew install zopfli
 
 # Oh My ZSH
 brew install zsh zsh-completions
@@ -103,17 +103,17 @@ chsh -s /bin/zsh
 
 # Dev Tools
 brew install rbenv rbenv-gem-rehash ruby-build
-rbenv install 2.2.3
-rbenv global 2.2.3
+rbenv install 2.6.3
+rbenv global 2.6.3
 gem update --system
 gem install bundler
 
 brew install redis
-brew install postgres
+# brew install postgres
 brew install node
-brew tap thoughtbot/formulae
-brew install rcm
-brew install legit
+# brew tap thoughtbot/formulae
+# brew install rcm
+# brew install legit
 brew install heroku-toolbelt
 
 #  Brew Cask fro Apps
@@ -124,24 +124,29 @@ brew cask install google-chrome
 # Remove outdated versions from the cellar.
 brew cask install dropbox
 # brew cask install google-chrome
-brew cask install google-drive
-brew cask install google-hangouts
-brew cask install flux
+# brew cask install google-drive
+# brew cask install google-hangouts
+# brew cask install flux
 brew cask install onepassword
-brew cask install pdftk
+# brew cask install pdftk
 brew cask install shiftit
-brew cask install superduper
+# brew cask install superduper
 # brew cask install totalfinder
-brew cask install transmission
+# brew cask install transmission
 # brew cask install valentina-studio
-brew cask install vlc
+# brew cask install vlc
 brew cask install rubymine
 brew cask install slack
 brew cask install spotify
 brew cask install postgres
 brew cask install iterm2
-brew cask install virtualbox
-
+brew cask install visual-studio-code
+brew cask install zoomus
+brew cask install keybase
+brew cask install insomnia
+brew cask install notion
+brew cask install superhuman
+brew cask install sketch
 
 
 brew cleanup
