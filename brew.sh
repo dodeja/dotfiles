@@ -134,7 +134,7 @@ brew cask install shiftit
 # brew cask install totalfinder
 # brew cask install transmission
 # brew cask install valentina-studio
-# brew cask install vlc
+brew cask install vlc
 brew cask install rubymine
 brew cask install slack
 brew cask install spotify
@@ -147,8 +147,7 @@ brew cask install insomnia
 brew cask install notion
 brew cask install superhuman
 brew cask install sketch
-
-
+brew cask install adobe-creative-cloud
 brew cleanup
 
 
